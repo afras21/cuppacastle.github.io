@@ -1,5 +1,5 @@
 /**
- * Hot Coffee Framework: Utilities
+ *Hot Coffee Framework: Utilities
  *
  * @package	hotcoffee
  * @since	hotcoffee 1.0

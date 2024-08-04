@@ -4597,7 +4597,7 @@ blockquote cite {
 	background-color: transparent !important;
 }
 
-/* Widget: Hot Coffee Advertisement */
+/* Widget:Hot Coffee Advertisement */
 .widget_area .widget_advert .image_wrap {
 	overflow:hidden;
 	display:block;
@@ -4605,7 +4605,7 @@ blockquote cite {
 }
 
 
-/* Widget: Hot Coffee Flickr */
+/* Widget:Hot Coffee Flickr */
 .widget_area .widget_flickr {
 	overflow:hidden;
 }
@@ -4627,13 +4627,13 @@ blockquote cite {
 }
 
 
-/* Widget: Hot Coffee Logo and Socials */
+/* Widget:Hot Coffee Logo and Socials */
 .widget_area .widget_socials .sc_socials {
 	margin-top:0.1em;
 }
 
 
-/* Widget: Hot Coffee Twitter */
+/* Widget:Hot Coffee Twitter */
 .widget_area .widget_twitter ul li {
 	padding-left:1.5em;
 }
