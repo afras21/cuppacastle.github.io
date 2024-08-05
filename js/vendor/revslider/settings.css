@@ -974,6 +974,7 @@ img.tp-slider-alternative-image	{
 }
 
 .tp-loader.spinner0 {
+	display:none;
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
