@@ -74,6 +74,27 @@
 	background-image:url(../images/bg_home_cup_go.png); 
 	background-position:50% 50%;
 }
+.bgdesicup {
+    position: relative;
+    overflow: hidden;
+}
+
+.bgdesicup::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Adjust this percentage to control how much of the image is visible */
+    height: 100%;
+    background-image: url(../images/desi_cup.jpg);
+    background-position: left center;
+    background-size: cover;
+    /* filter: blur(5px); */
+    z-index: -1; /* Ensure the background is behind the content */
+}
+
+
+
 .bg2 {
 	background-image:url(../images/3000x2000.png); 
 	background-position:50% 50%;
