@@ -326,17 +326,118 @@
 		background-position:center bottom;
 	}
 
-	#rev_slider_1_1_wrapper {
+	/* Default styling */
+#rev_slider_1_1_wrapper_01 {
+    margin: 0px auto;
+    background-color: transparent;
+    padding: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url(../images/tea_menu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+/* Styling for devices with a width of 1024px or less */
+@media screen and (max-width: 1024px) {
+    #rev_slider_1_1_wrapper_01 {
+		margin-top: 8%;
+		margin-bottom: 8%;
+		background-size: contain; /* Ensure the image is fully visible */
+		background-position: center; /* Center the image */
+		padding-left: 5%; /* Add padding to prevent content overflow */
+		padding-right: 5%;
+    }
+}
+
+/* Styling for devices with a width of 768px or less */
+@media screen and (max-width: 768px) {
+    #rev_slider_1_1_wrapper_01 {
+        margin-top: -10%;
+        margin-bottom: -10%;
+        background-size: contain; /* Adjust size to cover the entire background */
+    }
+}
+
+/* Styling for devices with a width of 480px or less */
+@media screen and (max-width: 480px) {
+    #rev_slider_1_1_wrapper_01 {
+        margin-top: -50%;
+        margin-bottom: -50%;
+        background-size: contain; /* Adjust size to cover the entire background */
+        padding-left: 5%; /* Add padding to prevent content overflow */
+        padding-right: 5%;
+    }
+}
+
+/* Styling for devices with a width of 320px or less */
+@media screen and (max-width: 320px) {
+    #rev_slider_1_1_wrapper_01 {
+        margin-top: -50%;
+        margin-bottom: -50%;
+        background-size: contain; /* Adjust size to cover the entire background */
+        padding-left: 10%; /* Add more padding for smaller devices */
+        padding-right: 10%;
+    }
+}
+
+
+	#rev_slider_1_1_wrapper_02 {
 		margin: 0px auto;
 		background-color: transparent;
 		padding: 0px;
-		margin-top: -10%;
-		margin-bottom: 0px;
-		background-image: url(../images/bg_main_slider.png);
+		margin-top: 5%;
+		margin-bottom: 5%;
+		background-image: url(../images/chat_menu.png);
 		background-repeat: no-repeat;
 		background-size: contain;
 		background-position: center bottom;
 	}
+
+	/* Styling for devices with a width of 1024px or less */
+@media screen and (max-width: 1024px) {
+    #rev_slider_1_1_wrapper_02 {
+		margin-top: 8%;
+		margin-bottom: 8%;
+		background-size: contain; /* Ensure the image is fully visible */
+		background-position: center; /* Center the image */
+		padding-left: 5%; /* Add padding to prevent content overflow */
+		padding-right: 5%;
+    }
+}
+
+/* Styling for devices with a width of 768px or less */
+@media screen and (max-width: 768px) {
+    #rev_slider_1_1_wrapper_02 {
+        margin-top: -10%;
+        margin-bottom: -10%;
+        background-size: contain; /* Adjust size to cover the entire background */
+    }
+}
+
+/* Styling for devices with a width of 480px or less */
+@media screen and (max-width: 480px) {
+    #rev_slider_1_1_wrapper_02 {
+        margin-top: -50%;
+        margin-bottom: -50%;
+        background-size: contain; /* Adjust size to cover the entire background */
+        padding-left: 5%; /* Add padding to prevent content overflow */
+        padding-right: 5%;
+    }
+}
+
+/* Styling for devices with a width of 320px or less */
+@media screen and (max-width: 320px) {
+    #rev_slider_1_1_wrapper_02 {
+        margin-top: -70%;
+        margin-bottom: -70%;
+        background-size: contain; /* Adjust size to cover the entire background */
+        padding-left: 10%; /* Add more padding for smaller devices */
+        padding-right: 10%;
+    }
+}
+
 	
 	/* For devices with a max width of 1200px */
 	@media (max-width: 1200px) {
@@ -907,7 +1008,7 @@
 }
 
 .vc_custom_1455545189644 {
-	background-image: url(../images/bg_04.jpg);
+	/* background-image: url(../images/bg_04.jpg); */
 	background-position: center;
 	background-repeat: no-repeat ;
 	background-size: cover ;
